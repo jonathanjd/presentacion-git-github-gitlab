@@ -3,6 +3,8 @@ extends layout
 block main
 
     section
+        p
+            i.fab.fa-discourse.fa-2x                    
         h1 Curso
         h3 Git + GitHub
 
@@ -10,13 +12,24 @@ block main
         section
             p
                 i.fab.fa-git-square.fa-2x
-            h1 
+            h1
                 a(href="https://git-scm.com/", target="_blank")
                     | Git
 
         section
             h3 Qué es?
             p Es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos.
+
+        section
+            h3 Instalación
+            img(src="/img/git-instalacion.png", alt="Git-Instalacion", height="300", width="500")
+            p Cliquear en el botón de Download
+
+        section
+            h3 Verificar Instalación
+            pre
+                code(data-trim="", data-noescape="")
+                    | git --version
 
     section
         section
@@ -28,3 +41,135 @@ block main
         section
             h3 Qué es?
             p Es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Se la utiliza principalmente para la creación de código fuente de programas de computadora. El código de los proyectos alojados en GitHub se almacena típicamente de forma pública, aunque utilizando una cuenta de pago, también permite hospedar repositorios privados.
+
+        section
+            h3 Plataforma
+            img(src="/img/plataformagithub.png", alt="Plataforma-GitHub", height="300", width="500")
+
+        section
+            p
+                i.fab.fa-github.fa-2x
+            h3 Creación de Cuenta
+
+    section
+        section 
+            p
+                i.fab.fa-git-square.fa-2x
+            h1 Gui Client
+
+        section
+            p
+                i.fab.fa-gitkraken.fa-2x
+            h3
+                a(href="https://www.gitkraken.com/", target="_blank")
+                    | GitKraken
+
+        section
+            h3 Instalación
+            img(src="/img/Captura de pantalla_2018-02-16_09-35-41.png", alt="Instalación-GitKraken", height="350", width="500")
+
+        section
+            p
+                i.fab.fa-gitkraken.fa-2x
+            h3 Configuración
+
+        section
+            h3 Interfaz
+            img(src="/img/interfacekraken.png", alt="", height="350", width="500")
+
+    section
+        section 
+            p
+                i.fab.fa-github.fa-2x
+            h1 Proyecto
+        
+        section
+            h3 Nuevo Repositorio
+            img(src="/img/crear-repositorio.png", alt="", height="350", width="500")
+
+        section
+            h3 Datos de Creación
+            img(src="/img/creando-repositorio.png", alt="", height="350", width="500")
+
+        section
+            h3 Mi Repositorio
+            img(src="/img/mi-repositorio.png", alt="", height="350", width="500")
+
+    section
+        section
+            p
+                i.fab.fa-github.fa-2x
+            h1 Repositorio
+
+        section
+            p
+                i.fab.fa-gitkraken.fa-2x
+            h3 Clonar Repositorio
+            img(src="/img/clonar-repositorio.png", alt="", height="350")
+
+        section
+            p
+                i.fab.fa-gitkraken.fa-2x
+            h3 Repositorio Sitio Web
+            img(src="/img/mi-repositorio-clonado.png", alt="", height="350")
+    
+    section
+        h3 Estados de Git
+        img(src="/img/estados-git.jpg", alt="", height="350", width="500")
+
+    section
+        section
+            p
+                i.fab.fa-git-square.fa-2x
+            h1 Flujo de Trabajo
+        
+        section
+            p
+                i.fas.fa-arrow-up.fa-2x
+            h3 Realizando Cambios
+            img(src="/img/cambios-repositorio.png", alt="", height="350")
+
+        section
+            p
+                i.fab.fa-github.fa-2x
+            h3 Subiendo Cambios(PUSH)
+            img(src="/img/push-github.png", alt="", height="350")
+
+    section
+        section
+            p
+                i.fas.fa-code-branch.fa-2x
+            h1 Ramas
+        
+        section
+            p
+                i.fas.fa-code-branch.fa-2x
+            h3 Crear
+            img(src="/img/crear-ramas.png", alt="", height="350")
+        
+        section
+            p
+                i.fas.fa-code-branch.fa-2x
+            h3 Unir(Merge)
+            img(src="/img/merge.png", alt="")
+
+        section
+            p
+                i.fas.fa-code-branch.fa-2x
+            h3 Conflictos
+            img(src="/img/conflicto.png", alt="", height="350")
+
+        section
+            p
+                i.fas.fa-code-branch.fa-2x
+            h3 Rebase
+            img(src="/img/rebase.png", alt="", height="350")
+        
+        section
+            p
+                i.fas.fa-code-branch.fa-2x
+            h3 Fast-Forward
+            img(src="/img/fast-forward.png", alt="", height="350")
+            
+
+

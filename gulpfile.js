@@ -15,9 +15,7 @@ gulp.task("serve", ['pug'], function() {
 gulp.task('pug', () => {
 
     gulp.src('./pug/*.pug')
-        .pipe(pug({
-          pretty: true
-        }))
+        .pipe(pug())
         .pipe(gulp.dest('./'));
 
 });

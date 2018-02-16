@@ -1,69 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Git + GitHub</title>
-    <link rel="stylesheet" href="../css/reveal.css"/>
-    <link rel="stylesheet" href="../css/theme/black.css"/>
-    <link rel="stylesheet" href="../lib/css/zenburn.css"/>
-    <script>
-      var link = document.createElement( 'link' );
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-      document.getElementsByTagName( 'head' )[0].appendChild( link ); 
-    </script>
-    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
-        <section>
-          <h1>Curso</h1>
-          <h3>Git + GitHub</h3>
-        </section>
-        <section>
-          <section>
-            <p><i class="fab fa-git-square fa-2x"></i></p>
-            <h1> <a href="https://git-scm.com/" target="_blank">Git</a></h1>
-          </section>
-          <section>
-            <h3>Qué es?</h3>
-            <p>Es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos.</p>
-          </section>
-        </section>
-        <section>
-          <section>
-            <p><i class="fab fa-github fa-2x"></i></p>
-            <h1><a href="https://github.com/" target="_blank">GitHub</a></h1>
-          </section>
-          <section>
-            <h3>Qué es?</h3>
-            <p>Es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Se la utiliza principalmente para la creación de código fuente de programas de computadora. El código de los proyectos alojados en GitHub se almacena típicamente de forma pública, aunque utilizando una cuenta de pago, también permite hospedar repositorios privados.</p>
-          </section>
-        </section>
-      </div>
-    </div>
-  </body>
-  <script src="../lib/js/head.min.js"></script>
-  <script src="../js/reveal.js"></script>
-  <script>
-    Reveal.initialize({ dependencies: [
-        { src: 'plugin/markdown/marked.js' },
-        { src: 'plugin/markdown/markdown.js' },
-        { src: 'plugin/notes/notes.js', async: true },
-        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-        { src: 'node_modules/reveal.js-menu/menu.js' }
-            ],
-        menu: {
-            markers: false,
-            numbers: true,
-            transitions: false,
-            titleSelector: 'h1,h3',
-        }
-    
-        });
-  </script>
-</html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><title>Git + GitHub</title><link rel="stylesheet" href="../css/reveal.css"/><link rel="stylesheet" href="../css/theme/black.css"/><link rel="stylesheet" href="../lib/css/zenburn.css"/><script>var link = document.createElement( 'link' );
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+document.getElementsByTagName( 'head' )[0].appendChild( link ); </script><script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script></head><body><div class="reveal"><div class="slides"><section><p><i class="fab fa-discourse fa-2x">                   </i></p><h1>Curso</h1><h3>Git + GitHub</h3></section><section><section><p><i class="fab fa-git-square fa-2x"></i></p><h1><a href="https://git-scm.com/" target="_blank">Git</a></h1></section><section><h3>Qué es?</h3><p>Es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente. Su propósito es llevar registro de los cambios en archivos de computadora y coordinar el trabajo que varias personas realizan sobre archivos compartidos.</p></section><section><h3>Instalación</h3><img src="/img/git-instalacion.png" alt="Git-Instalacion" height="300" width="500"/><p>Cliquear en el botón de Download</p></section><section><h3>Verificar Instalación</h3><pre><code data-trim="" data-noescape="">git --version</code></pre></section></section><section><section><p><i class="fab fa-github fa-2x"></i></p><h1><a href="https://github.com/" target="_blank">GitHub</a></h1></section><section><h3>Qué es?</h3><p>Es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git. Se la utiliza principalmente para la creación de código fuente de programas de computadora. El código de los proyectos alojados en GitHub se almacena típicamente de forma pública, aunque utilizando una cuenta de pago, también permite hospedar repositorios privados.</p></section><section><h3>Plataforma</h3><img src="/img/plataformagithub.png" alt="Plataforma-GitHub" height="300" width="500"/></section><section><p><i class="fab fa-github fa-2x"></i></p><h3>Creación de Cuenta</h3></section></section><section><section> <p><i class="fab fa-git-square fa-2x"></i></p><h1>Gui Client</h1></section><section><p><i class="fab fa-gitkraken fa-2x"></i></p><h3><a href="https://www.gitkraken.com/" target="_blank">GitKraken</a></h3></section><section><h3>Instalación</h3><img src="/img/Captura de pantalla_2018-02-16_09-35-41.png" alt="Instalación-GitKraken" height="350" width="500"/></section><section><p><i class="fab fa-gitkraken fa-2x"></i></p><h3>Configuración</h3></section><section><h3>Interfaz</h3><img src="/img/interfacekraken.png" alt="" height="350" width="500"/></section></section><section><section> <p><i class="fab fa-github fa-2x"></i></p><h1>Proyecto</h1></section><section><h3>Nuevo Repositorio</h3><img src="/img/crear-repositorio.png" alt="" height="350" width="500"/></section><section><h3>Datos de Creación</h3><img src="/img/creando-repositorio.png" alt="" height="350" width="500"/></section><section><h3>Mi Repositorio</h3><img src="/img/mi-repositorio.png" alt="" height="350" width="500"/></section></section><section><section><p><i class="fab fa-github fa-2x"></i></p><h1>Repositorio</h1></section><section><p><i class="fab fa-gitkraken fa-2x"></i></p><h3>Clonar Repositorio</h3><img src="/img/clonar-repositorio.png" alt="" height="350"/></section><section><p><i class="fab fa-gitkraken fa-2x"></i></p><h3>Repositorio Sitio Web</h3><img src="/img/mi-repositorio-clonado.png" alt="" height="350"/></section></section><section><h3>Estados de Git</h3><img src="/img/estados-git.jpg" alt="" height="350" width="500"/></section><section><section><p><i class="fab fa-git-square fa-2x"></i></p><h1>Flujo de Trabajo</h1></section><section><p><i class="fas fa-arrow-up fa-2x"></i></p><h3>Realizando Cambios</h3><img src="/img/cambios-repositorio.png" alt="" height="350"/></section><section><p><i class="fab fa-github fa-2x"></i></p><h3>Subiendo Cambios(PUSH)</h3><img src="/img/push-github.png" alt="" height="350"/></section></section><section><section><p><i class="fas fa-code-branch fa-2x"></i></p><h1>Ramas</h1></section><section><p><i class="fas fa-code-branch fa-2x"></i></p><h3>Crear</h3><img src="/img/crear-ramas.png" alt="" height="350"/></section><section><p><i class="fas fa-code-branch fa-2x"></i></p><h3>Unir(Merge)</h3><img src="/img/merge.png" alt=""/></section><section><p><i class="fas fa-code-branch fa-2x"></i></p><h3>Conflictos</h3><img src="/img/conflicto.png" alt="" height="350"/></section><section><p><i class="fas fa-code-branch fa-2x"></i></p><h3>Rebase</h3><img src="/img/rebase.png" alt="" height="350"/></section><section><p><i class="fas fa-code-branch fa-2x"></i></p><h3>Fast-Forward</h3><img src="/img/fast-forward.png" alt="" height="350"/></section></section></div></div></body><script src="../lib/js/head.min.js"></script><script src="../js/reveal.js"></script><script>Reveal.initialize({ dependencies: [
+    { src: 'plugin/markdown/marked.js' },
+    { src: 'plugin/markdown/markdown.js' },
+    { src: 'plugin/notes/notes.js', async: true },
+    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    { src: 'node_modules/reveal.js-menu/menu.js' }
+        ],
+    menu: {
+        markers: false,
+        numbers: true,
+        transitions: false,
+        titleSelector: 'h1,h3',
+    }
+
+    });</script></html>
