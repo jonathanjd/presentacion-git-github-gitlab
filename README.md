@@ -9,11 +9,11 @@
 - [Description](#description)
 - [Contenido](#contenido)
 - [License](#license)
-- [Author Info](#author-info)
+- [Author Info](#autor-info)
 
 ---
 
-## Description
+## Descripción
 
 Curso Básico de Git + Github.
 
@@ -97,7 +97,7 @@ Curso Básico de Git + Github.
 
 
 
-## Technology
+## Herramienta
 
 ![Project Image](https://git-scm.com/images/logos/1color-orange-lightbg@2x.png)
 
@@ -109,7 +109,7 @@ Curso Básico de Git + Github.
 
 - GitKraken
 
-[Back To The Top](#curso-de-git-gitHub)
+[Back To The Top](#curso-de-git-github)
 
 ---
 
@@ -117,13 +117,13 @@ Curso Básico de Git + Github.
 
 MIT License
 
-[Back To The Top](#curso-de-git-gitHub)
+[Back To The Top](#curso-de-git-github)
 
 ---
 
-## Author Info
+## Autor Info
 
 - Twitter - [@HeadJDs](https://twitter.com/HeadJDs)
 - Website - [Jonathan Duran](https://jonathanjd.github.io/)
 
-[Back To The Top](#curso-de-git-gitHub)
+[Back To The Top](#curso-de-git-github)
