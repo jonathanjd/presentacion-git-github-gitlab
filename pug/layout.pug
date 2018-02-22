@@ -5,9 +5,9 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title Git + GitHub
-        link(rel="stylesheet", href="../css/reveal.css")
-        link(rel="stylesheet", href="../css/theme/black.css")
-        link(rel="stylesheet", href="../lib/css/zenburn.css")
+        link(rel="stylesheet", href="css/reveal.css")
+        link(rel="stylesheet", href="css/theme/black.css")
+        link(rel="stylesheet", href="lib/css/zenburn.css")
         script.
             var link = document.createElement( 'link' );
             link.rel = 'stylesheet';
@@ -20,8 +20,8 @@ html(lang="en")
             .slides
                 block main
 
-    script(src="../lib/js/head.min.js")
-    script(src="../js/reveal.js")
+    script(src="lib/js/head.min.js")
+    script(src="js/reveal.js")
 
     script.
         Reveal.initialize({ dependencies: [
@@ -32,10 +32,9 @@ html(lang="en")
             { src: 'node_modules/reveal.js-menu/menu.js' }
                 ],
             menu: {
-                markers: false,
                 numbers: true,
                 transitions: false,
-                titleSelector: 'h1,h3',
+                titleSelector: 'h1, h3'
             }
 
             });
