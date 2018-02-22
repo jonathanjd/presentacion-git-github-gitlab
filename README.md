@@ -1,4 +1,4 @@
-# Curso de Git + GitHub
+# Curso de Git Github
 
 ![Project Image](http://www.soe.uagrm.edu.bo/wp-content/uploads/2017/05/git-github.jpg)
 
