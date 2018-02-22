@@ -1,15 +1,15 @@
 # Curso de Git Github
 
-![Project Image](http://www.soe.uagrm.edu.bo/wp-content/uploads/2017/05/git-github.jpg)
+![Project Image](/img/git-github-readme.jpg)
 
 ---
 
 ### Índice
 
-- [Description](#description)
+- [Descripción](#description)
 - [Contenido](#contenido)
-- [License](#license)
-- [Author Info](#autor-info)
+- [Licencia](#license)
+- [Autor Info](#autor-info)
 
 ---
 
@@ -93,19 +93,21 @@ Curso Básico de Git + Github.
     * Reset Hard
     * Reset Mixed
     * Reset Soft
+    * Ramas
+    * Fusiones
 
 
 
 
 ## Herramienta
 
-![Project Image](https://git-scm.com/images/logos/1color-orange-lightbg@2x.png)
+![Git Image](/img/git.jpg)
 
 - Git
 
 ## Gui Client
 
-![Project Image](https://dwa5x7aod66zk.cloudfront.net/assets/pack/logo-gitkraken-c292786ac0b639afcda0a4d8531869e87cde5e40e255fe8684b0a19add839edd.jpg)
+![Gitkraken Image](/img/gitkraken.jpg)
 
 - GitKraken
 
@@ -113,7 +115,7 @@ Curso Básico de Git + Github.
 
 ---
 
-## License
+## Licencia
 
 MIT License
 
