@@ -175,7 +175,7 @@ block main
         section
             p
                 i.fab.fa-github.fa-2x
-            h1 Issues + Pull Request
+            h1 Issues
         
         section
             p
@@ -200,5 +200,204 @@ block main
                 i.fab.fa-github.fa-2x
             h3 Cerrar Issues
             img(src="/img/closes-issues.png", alt="", height="350")
+    
+    section
+        p
+                i.fab.fa-github.fa-2x
+        h1 Fork
+
+    section
+
+        section
+            p
+                i.fab.fa-github.fa-2x
+            h1 Pull Request
+
+        section
+            p
+                i.fab.fa-github.fa-2x
+            h3 Crear
+            img(src="/img/crear-pull-request.png", alt="", height="350")
+
+        section
+            p
+                i.fab.fa-github.fa-2x
+            h3 Aprobar
+            img(src="/img/aprobar-pullrequest.png", alt="", height="350")
+
+    section
+        p
+            i.fab.fa-github.fa-2x
+        h3 Colaboradores
+        img(src="/gif/colaboradores.gif", alt="")
+
+
+    section
+        p
+            i.fab.fa-github.fa-2x
+        h1 Wiki Github
+
+    section
+
+        section
+            p
+                i.fab.fa-gitlab.fa-2x
+            h1
+                a(href="https://about.gitlab.com/", target="_blank")
+                    | GitLab
+        
+        section
+            p
+                i.fab.fa-gitlab.fa-2x
+            h3 Overview
+            img(src="/gif/gitlab.gif", alt="", height="350")
+
+    section
+        
+        section
+            p
+                i.fab.fa-git.fa-2x
+            h1 GIT
+
+        section
+            p
+                i.fab.fa-git.fa-2x
+            h3 Configuración
+            ul
+                li.fragment git config --global user.name "Mi Nombre"
+                li.fragment git config user.name
+                li.fragment config --global user.email "mi_correo@example.com"
+                li.fragment config user.email
+                li.fragment config --list
+                li.fragment git help config
+
+        section
+            p
+                i.fab.fa-git.fa-2x
+            h3 Working Directory
+            p Donde editas y trabajas tus proyectos
+
+        section
+            p
+                i.fab.fa-git.fa-2x
+            h3 Staging Area
+            p Escoger cuales archivos irán en el siguiente commit
+
+        section
+            p
+                i.fab.fa-git.fa-2x
+            h3 Repository
+            p El registro de todo tu proyecto
+
+        section
+            p
+                i.fab.fa-git
+            h3 Flujo de Trabajo
+            ul
+                li.fragment Modificas una serie de archivos en tu directorio de trabajo.
+                li.fragment Preparas los archivos, añadiéndolos a tu área de preparación.
+                li.fragment Confirmar los cambios, lo que toma los archivos tal y como están en el área de preparación y almacena esa copia instantánea de manera permanente en tu directorio de Git. 
+
+        section
+            p
+                i.fab.fa-git
+            h3 Iniciar Repositorio
+            pre
+                code(data-trim="", data-noescape="")
+                    | git init
+
+        section
+            p
+                i.fab.fa-git
+            h3 Comprobar Estado
+            pre
+                code(data-trim="", data-noescape="")
+                    | git status
+
+        section
+            p
+                i.fab.fa-git
+            h3 Add & Commit
+            pre
+                code(data-trim="", data-noescape="")
+                    | git add -A
+                    | git commit -m "Mensaje del Commit"
+        
+        section
+            p
+                i.fab.fa-git
+            h3 Registro de Commit
+            pre
+                code(data-trim="", data-noescape="")
+                    | git log
+
+        section
+            p
+                i.fab.fa-git
+            h3 Cambios entre commit
+            pre
+                code(data-trim="", data-noescape="")
+                    | git diff
+
+
+        section
+            p
+                i.fab.fa-git
+            h3 Ciclo de Vida
+            img(src="/img/ciclo-de-vida.png", alt="", height="350")
+
+        section
+            p
+                i.fab.fa-git
+            h3 GitIgnore
+            p
+                i.fas.fa-file
+                |  .gitignore
+            p Patrones de nombres de archivos que git ignorará.
+
+        section
+            p
+                i.fab.fa-git
+            h3 Alias | Decorar Log
+            pre
+                code(data-trim="", data-noescape="")
+                    | git config --global alias.superlog "Formato"
+        section
+            p
+                i.fab.fa-git
+            h3 Reset 
+            pre
+                code(data-trim="", data-noescape="")
+                    | git reset
+        
+        section
+            p
+                i.fab.fa-git
+            h3 Reset Hard
+            pre
+                code(data-trim="", data-noescape="")
+                    | git reset --hard [SHA commit]
+            p Importante: Respaldar commit
+
+        section
+            p
+                i.fab.fa-git
+            h3 Reset Mixed
+            pre
+                code(data-trim="", data-noescape="")
+                    | git reset --mixed [SHA commit]
+
+        section
+            p
+                i.fab.fa-git
+            h3 Reset Soft
+            pre
+                code(data-trim="", data-noescape="")
+                    | git reset --soft [SHA commit]
+
+    section
+        h1 Fin
+
+        
 
 
